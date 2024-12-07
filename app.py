@@ -10,7 +10,7 @@ st.set_page_config(page_title="Starbuck Dataset Exploration", page_icon="☕️"
 page = st.sidebar.selectbox("Select a Page", ["Home", "Data Overview", "Exploratory Data Analysis"])
 
 # Load dataset
-df = pd.read_csv('data/cleaned_starbucks.csv')
+df = pd.read_csv('cleaned_starbucks.csv')
 
 # Home Page
 if page == "Home":
